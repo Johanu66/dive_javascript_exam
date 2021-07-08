@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="scoring.css">
+    <title>DIVE INTO SAMPLE JavaScript</title>
+  </head>
+  <body>
+    <div class="container">
+        <table>
+            <tr>
+                <th>Name: Test Taro</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Language Japanese : </th>
+                <td><input type="number" id="national_language" value=0></td>
+            </tr>
+            <tr>
+                <th>English：</th>
+                <td><input type="number" id="english" value=0></td>
+            </tr>
+            <tr>
+                <th>Mathematics：</th>
+                <td><input type="number" id="mathematics" value=0></td>
+            </tr>
+            <tr>
+                <th>Science：</th>
+                <td><input type="number" id="science" value=0></td>
+            </tr>
+            <tr>
+                <th>Society：</th>
+                <td><input type="number" id="society" value=0></td>
+            </tr>
+            <tr>
+                <th>Total points or score：</th>
+                <td><label id="sum_indicate"></label></td>
+            </tr>
+            <tr>
+                <th>Average point：</th>
+                <td><label id="average_indicate"></label></td>
+            </tr>
+            <tr>
+                <th><label class="btn btn-primary" id="btn-evaluation">Rank</label> ： </th>
+                <td><label id="evaluation"></label></td>
+            </tr>
+            <tr>
+                <th><label class="btn btn-success" id="btn-judge">Judgment</label> ： </th>
+                <td><label id="judge"></label></td>
+            </tr>
+            <tr>
+                <th><label class="btn btn-warning" id="btn-declaration">Final Judge</label> ： </th>
+                <td><label id="declaration"></label></td>
+            </tr>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="scoring.js"></script>
+  </body>
+</html>
